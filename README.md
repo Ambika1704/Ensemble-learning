@@ -39,18 +39,17 @@ Test set class distribution from the recorded run:
 
 ## Repository Structure
 
-- [`ensemble_bank_marketing.ipynb`](./ensemble_bank_marketing.ipynb): complete modeling workflow
-- [`README.md`](./README.md): project documentation
+```text
+Ensemble-learning/
+|-- data/
+|   `-- train.csv
+|-- ensemble_bank_marketing.ipynb
+`-- README.md
+```
 
-When the notebook is executed, it also saves plots to a generated `plots/` folder, including:
+Generated during notebook execution:
 
-- `eda_overview.png`
-- `confusion_matrices.png`
-- `roc_curves.png`
-- `pr_curves.png`
-- `metric_comparison.png`
-- `threshold_analysis.png`
-- `feature_importances.png`
+- `plots/`: output visualizations written by the notebook, including `eda_overview.png`, `confusion_matrices.png`, `roc_curves.png`, `pr_curves.png`, `metric_comparison.png`, `threshold_analysis.png`, and `feature_importances.png`
 
 ## End-to-End Workflow
 
